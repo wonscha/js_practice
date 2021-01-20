@@ -42,3 +42,20 @@ const author = {
 };
 
 author.printBooks()
+
+function iterateVar() {
+    for (var i = 0; i < 10; i++) {
+        console.log(i);
+    }
+    console.log(i);
+}
+iterateVar()
+
+function iterateLet() {
+    for (let i = 0; i < 10; i++) {
+        console.log(i);
+    }
+    console.log(i);
+}
+
+// iterateLet()
